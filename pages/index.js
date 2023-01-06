@@ -29,7 +29,6 @@ export default function Home({ trendingResults, followResults, providers }) {
           trendingResults={trendingResults}
           followResults={followResults}
         />
-
         {isOpen && <Modal />}
       </main>
     </div>
